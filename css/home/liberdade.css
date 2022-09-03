@@ -1,0 +1,97 @@
+.liberdade-bg {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 320px;
+}
+
+.liberdade h2 {
+  font-size: 2.7rem;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  grid-column: 1/-1;
+  margin: 0 50px;
+}
+
+.liberdade {
+  display: grid;
+  grid-template-columns: 3fr auto;
+}
+
+.liberdade-conteudo {
+  display: grid;
+  gap: 30px;
+  align-items: start;
+}
+
+.liberdade-conteudo p {
+  padding: 0 50px;
+  font-size: 2rem;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.liberdade img {
+  padding-right: 60px;
+  max-width: 900px;
+}
+
+@media (max-width: 2000px) {
+  .liberdade-conteudo p {
+    font-size: 1.7rem;
+}
+  .liberdade img {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .liberdade-conteudo p {
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+  .liberdade-conteudo {
+    gap: 0px;
+}
+}
+
+@media (max-width: 1500px) {
+  .liberdade {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .liberdade img {
+    grid-row: 2;
+    margin: auto;
+  }
+  .liberdade-conteudo {
+    gap: 30px;
+    margin-top: 70px;
+  }
+  .liberdade h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .liberdade-bg {
+    padding-top: 0px;
+  }
+  .liberdade img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .liberdade h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  .liberdade-conteudo p {
+    font-size: 1.1rem;
+  }
+  .liberdade img {
+    max-height: 250px;
+  }
+}

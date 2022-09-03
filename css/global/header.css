@@ -1,0 +1,51 @@
+.header-bg {
+  background-color: #000000;
+}
+
+.logo {
+  color: #ffffff;
+  margin-left: 60px;
+  font-size: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1910px;
+  margin: 0 auto;
+}
+
+.header-menu a {
+  color:  #ffffff;
+  display: inline-block;
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-right: 30px;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #ffffff;
+  margin-top: 4px;
+  position: absolute;
+} 
+
+.header-menu a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
