@@ -17,22 +17,23 @@
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
-  max-width: 1910px;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .header-menu a {
-  color:  #ffffff;
+  color: #ffffff;
   display: inline-block;
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  padding-right: 30px;
+
 }
 
 .header-menu a:after {
@@ -43,7 +44,7 @@
   background: #ffffff;
   margin-top: 4px;
   position: absolute;
-} 
+}
 
 .header-menu a:hover:after {
   width: 100%;

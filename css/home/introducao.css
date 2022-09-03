@@ -4,7 +4,8 @@
 }
 
 .introducao {
-  max-width: 1920px;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -14,77 +15,65 @@
 }
 
 .introducao h1 {
-  padding: 120px;
-  margin-left: 120px;
+  padding-top: 120px;
+  padding-left: 60px;
+}
 
-  width: max-content;
+.introducao-conteudo {
+  padding-top: 60px;
 }
 
 .introducao img {
-  grid-column: 1;
   margin-bottom: -120px;
 }
 
 .introducao-informacoes {
-  align-self: center;
-  margin-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+  display: grid;
+  gap: 30px;
 }
 
 .introducao p {
-  font-size: 2rem;
-  padding-bottom: 70px;
-  margin-right: 40px;
+  font-size: 1.3rem;
+  text-align: start;
 }
 
-@media (max-width: 1700px) {
+.introducao-informacoes > .botao {
+  max-width: max-content;
+}
+
+@media (max-width: 980px) {
+  .introducao-informacoes .botao {
+    font-size: 0.8rem;
+    padding: 14px 28px;
+  }
+  .introducao h1 {
+    padding-top: 60px;
+  }
+  .introducao-informacoes {
+    padding-top: 0px;
+  }
+  .introducao-informacoes p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
   .introducao-bg {
-    padding-bottom: 50px;
+    box-shadow: inset 0 0px #ffffff;
   }
-}
-
-@media (max-width: 1200px) {
-  .introducao p {
-    font-size: 1.5rem;
-    padding-bottom: 40px;
-  }
-  .introducao-bg {
-    box-shadow: inset 0 -60px #ffffff;
-  }
-}
-
-@media (max-width: 1000px) {
   .introducao-conteudo {
-    display: grid;
     grid-template-columns: 1fr;
   }
   .introducao-informacoes {
-    padding-left: 120px;
-  }
-  .introducao p {
-    font-size: 2rem;
-    max-width: 40ch;
-  }
-  .introducao h1 {
-    padding: 60px;
+    padding-bottom: 60px;
+    margin: 0 30px;
   }
   .introducao img {
-    padding-top: 20px;
-    max-height: 500px;
-    margin: auto;
-  }
+    margin-bottom: 0px;
 }
-
-@media (max-width: 800px) {
-  .introducao img {
-    max-height: 400px;
-  }
-  .introducao p {
-    font-size: 1.4rem;
-  }
-  .introducao-informacoes {
-    padding-left: 80px;
-  }
-  .introducao h1 {
-    margin: auto;
-  }
+.introducao h1 {
+  padding-left: 40px;
+}
 }
