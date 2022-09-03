@@ -18,8 +18,7 @@
 }
 
 .curso-informacao h2 {
- 
- padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .curso-informacao a {
@@ -28,10 +27,10 @@
 }
 
 @media (max-width: 980px) {
- .curso-conteudo {
-  grid-template-columns: 1fr;
-}
-.curso-informacao {
-  text-align: center;
- }
+  .curso-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .curso-informacao {
+    text-align: center;
+  }
 }
