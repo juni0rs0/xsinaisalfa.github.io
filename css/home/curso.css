@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
-  /* align-items: center; */
   border-radius: 5px;
 }
 

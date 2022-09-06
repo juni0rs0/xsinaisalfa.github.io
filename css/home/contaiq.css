@@ -1,0 +1,84 @@
+.contaiq-bg {
+  background: #111111;
+
+  margin-bottom: 300px;
+}
+
+.contaiq {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.contaiq h2 {
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contaiq-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contaiq-conteudo iframe {
+  margin-bottom: 60px;
+  padding-right: 60px;
+}
+
+.contaiq-conteudo p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.contaiq-info a {
+  padding: 16px 25px;
+  width: max-content;
+}
+
+@media (max-width: 980px) {
+  .contaiq-conteudo p {
+    font-size: 1.3rem;
+  }
+  .contaiq-conteudo iframe {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contaiq-conteudo p {
+    font-size: 1rem;
+  }
+  .contaiq-conteudo a {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contaiq-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .contaiq-conteudo iframe {
+    margin: auto;
+    padding: 0px;
+  }
+  .contaiq-info {
+    padding-top: 30px;
+  }
+
+  .contaiq-info p {
+    margin-bottom: 30px;
+  }
+
+  .contaiq-info a {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+  }
+  .contaiq-conteudo iframe {
+    width: 300px;
+    height: 170px;
+  }
+}
