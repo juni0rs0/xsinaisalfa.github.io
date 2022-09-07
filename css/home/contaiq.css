@@ -61,6 +61,10 @@
   .contaiq-conteudo {
     grid-template-columns: 1fr;
   }
+  .contaiq h2 {
+    font-size: 1.1rem;
+    padding: 30px;
+  }
   .contaiq-conteudo iframe {
     margin: auto;
     padding: 0px;
@@ -78,7 +82,20 @@
     padding: 10px 20px;
   }
   .contaiq-conteudo iframe {
-    width: 300px;
+    width: auto;
     height: 170px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contaiq-conteudo iframe {
+    width: 270px;
+    height: 150px;
+  }
+  .contaiq-info a {
+    font-size: 0.8rem;
+  }
+  .contaiq-info {
+    padding-left: 10px;
   }
 }

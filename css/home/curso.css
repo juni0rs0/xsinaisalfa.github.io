@@ -33,3 +33,10 @@
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  .curso-informacao a {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

@@ -1,6 +1,6 @@
 .planilha-bg {
   padding-top: 120px;
-  padding-bottom: 300px;
+  padding-bottom: 60px;
 }
 
 .planilha-conteudo {
@@ -11,8 +11,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.planilha-conteudo img {
+  border-radius: 4px;
+}
+
 .planilha-info {
-  padding: 0 30px 0 50px ;
+  padding: 0 30px 0 50px;
 }
 
 .planilha-info h2 {
@@ -41,7 +45,7 @@
     max-width: 400px;
     margin: auto;
   }
-  .planilha-info  {
+  .planilha-info {
     text-align: center;
   }
   .planilha-info h2 {
@@ -53,12 +57,25 @@
   }
 }
 
-  @media (max-width: 400px) {
-    .planilha-conteudo img {
-      max-width: 300px;
-      margin: auto;
-    }
-    .planilha-bg {
-      padding-top: 60px;
-    }
+@media (max-width: 600px) {
+  .planilha-info {
+    text-align: start;
+    padding: 0px;
   }
+  .planilha-bg {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .planilha-conteudo img {
+    max-width: 300px;
+    margin: auto;
+  }
+  .planilha-bg {
+    padding-top: 60px;
+  }
+  .planilha-info {
+    padding: 0 10px;
+  }
+}
