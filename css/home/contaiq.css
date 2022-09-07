@@ -1,6 +1,6 @@
 .contaiq-bg {
   background: #111111;
-  margin-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .contaiq {
@@ -28,7 +28,7 @@
 
 .contaiq-conteudo p {
   font-size: 1.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .contaiq-info a {
@@ -62,22 +62,22 @@
   }
   .contaiq h2 {
     font-size: 1.1rem;
-    padding: 30px;
+    padding: 60px 30px;
   }
   .contaiq-conteudo iframe {
     margin: auto;
     padding: 0px;
   }
   .contaiq-info {
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .contaiq-info p {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .contaiq-info a {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 10px 20px;
   }
   .contaiq-conteudo iframe {
