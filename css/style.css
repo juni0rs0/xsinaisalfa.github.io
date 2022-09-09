@@ -9,6 +9,8 @@
 @import"../css/home/planilha.css";
 @import"../css/home/contaiq.css";
 
+/* sala vip */
+@import"../css/salavip/introducaovip.css";
 
 /* utilidades */
 @import"../css/utilidades/cores.css";
