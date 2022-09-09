@@ -72,14 +72,11 @@
     padding-top: 50px;
   }
 
-  .contaiq-info p {
-    margin-bottom: 50px;
+  .botao.seta {
+   margin: auto;
+    
   }
-
-  .contaiq-info a {
-    margin-bottom: 50px;
-    padding: 10px 20px;
-  }
+  
   .contaiq-conteudo iframe {
     width: auto;
     height: 170px;
