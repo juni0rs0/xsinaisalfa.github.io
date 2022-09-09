@@ -92,9 +92,13 @@
     height: 150px;
   }
   .contaiq-info a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .contaiq-info {
     padding-left: 10px;
   }
+  .contaiq-bg {
+    padding-bottom: 40px;
+  }
+  
 }

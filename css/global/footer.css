@@ -68,21 +68,15 @@
 }
 
 @media (max-width: 400px) {
-  .footer {
-    grid-template-columns: 1fr;
-    padding-left: 0px;
+  .footer h3 {
+    font-size: 1rem;
   }
-  .redes,
-  .navegacao,
-  .sobre {
-    margin: auto;
+  .footer p,
+  .navegacao a {
+    font-size: 0.9rem;
   }
-  .sobre {
-    text-align: center;
-  }
-  .sobre p {
-    text-align: center;
-    margin-right: 0px;
+  .redes-lista {
+    gap: 10px;
   }
 }
 
