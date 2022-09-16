@@ -76,3 +76,10 @@
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 500px) {
+  .perguntasvip  button {
+   font-size: 1rem;
+  }
+
+}

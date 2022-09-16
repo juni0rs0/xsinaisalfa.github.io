@@ -1,0 +1,100 @@
+.comprarvip-bg {
+  background: var(--cor-1);
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.comprarvip {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.comprarvip-titulo {
+  background: var(--cor-0);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.comprarvip-titulo h3 {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.comprarvip-comprar {
+  background: var(--cor-0);
+  max-width: max-content;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.comprarvip-compra img {
+  max-width: 250px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+}
+
+.comprarvip-compra p {
+  font: 600 1.2rem/1.25 "roboto", sans-serif;
+}
+
+.comprarvip-compra a {
+  display: block;
+  max-width: max-content;
+  margin: 40px auto auto;
+ 
+}
+
+#riscar {
+  text-decoration: line-through #e21;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .comprarvip-titulo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .comprarvip-bg {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .comprarvip-comprar {
+
+    margin: 60px auto;
+ 
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 500px) {
+  .comprarvip h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .comprarvip-compra img {
+    max-width: 150px;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+  .comprarvip-comprar p{
+    font-size: 1rem;
+  }
+  .comprarvip-comprar #riscar {
+    font-size: 0.8rem;
+  }
+  .comprarvip-comprar a {
+    font-size: 0.9rem;
+    padding: 12px 24px;
+    margin-top: 20px;
+  }
+  .comprarvip-comprar {
+    padding: 30px;
+  }
+}
