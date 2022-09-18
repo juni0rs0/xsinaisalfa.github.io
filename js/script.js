@@ -12,7 +12,7 @@ link.classList.add("ativo")
 links.forEach(ativarLink);
 
 // Perguntas Frequentes
-const perguntas = document.querySelectorAll(".perguntasvip button");
+const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
   const pergunta = event.currentTarget;
@@ -29,3 +29,4 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+

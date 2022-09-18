@@ -1,6 +1,8 @@
 @import"../css/global/header.css";
 @import"../css/global/global.css";
 @import"../css/global/footer.css";
+@import"../css/global/perguntas.css";
+
 
 /* home */
 @import"../css/home/introducao.css";
@@ -12,12 +14,15 @@
 /* sala vip */
 @import"../css/salavip/introducaovip.css";
 @import"../css/salavip/grupofree.css";
-@import"../css/salavip/perguntasvip.css";
+
 @import"../css/salavip/comprarvip.css";
 
 /* sala ao vivo */
 @import"../css/salaaovivo/aovivointro.css";
 @import"../css/salaaovivo/vantagens.css";
+
+/* robô blaze */
+
 
 /* utilidades */
 @import"../css/utilidades/cores.css";
