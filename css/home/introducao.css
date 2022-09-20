@@ -1,6 +1,6 @@
 .introducao-bg {
   background: var(--cor-12);
-  box-shadow: inset 0 -80px #ffffff;
+  box-shadow: inset 0 -50px #ffffff;
 }
 
 .introducao {
@@ -44,10 +44,6 @@
 }
 
 @media (max-width: 980px) {
-  .introducao-informacoes .botao {
-    font-size: 0.8rem;
-    padding: 14px 28px;
-  }
   .introducao h1 {
     padding-top: 60px;
   }
@@ -75,5 +71,9 @@
 }
 .introducao h1 {
   padding-left: 40px;
+}
+
+.introducao-informacoes .botao {
+    padding: 10px 20px;
 }
 }

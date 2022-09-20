@@ -6,7 +6,6 @@
 
 /* home */
 @import"../css/home/introducao.css";
-@import"../css/home/liberdade.css";
 @import"../css/home/curso.css";
 @import"../css/home/planilha.css";
 @import"../css/home/contaiq.css";
@@ -14,7 +13,6 @@
 /* sala vip */
 @import"../css/salavip/introducaovip.css";
 @import"../css/salavip/grupofree.css";
-
 @import"../css/salavip/comprarvip.css";
 
 /* sala ao vivo */
