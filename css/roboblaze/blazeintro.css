@@ -1,0 +1,86 @@
+.blazeintro-bg {
+  background: #111111;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.blaze-intro {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.blazeintro-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.blazeintro-conteudo img {
+  margin: auto;
+  max-width: 600px;
+}
+
+.blazeintro-conteudo li {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.blazeintro-conteudo li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ee2211;
+  margin-right: 10px;
+}
+
+@media (max-width: 950px) {
+  .blazeintro-conteudo img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .blazeintro-bg {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .blazeintro-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blaze-intro h2 {
+    text-align: center;
+  }
+  .blazeintro-conteudo ul {
+    margin-top: 60px;
+    font-size: 1.5rem;
+  }
+  .blazeintro-conteudo li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .blazeintro-conteudo {
+    padding-top: 60px;
+  }
+  .blazeintro-conteudo li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .blazeintro-conteudo li {
+    font-size: 0.8rem;
+  }
+  .blazeintro-conteudo li::before {
+    width: 8px;
+    height: 8px;
+  }
+}
