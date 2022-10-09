@@ -10,7 +10,7 @@
 }
 
 .perguntas h2 {
- margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .perguntas dl > div {
@@ -56,14 +56,13 @@
   transform: rotate(180deg);
 }
 
-.perguntas dd {
+.js .perguntas dd {
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
-
 
 .perguntas dd {
   padding-left: 20px;
@@ -78,12 +77,11 @@
   }
   .perguntas h2 {
     margin-bottom: 40px;
-   }
+  }
 }
 
 @media (max-width: 500px) {
-  .perguntas  button {
-   font-size: 1rem;
+  .perguntas button {
+    font-size: 1rem;
   }
-
 }
