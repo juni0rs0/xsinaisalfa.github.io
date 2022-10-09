@@ -1,0 +1,76 @@
+.blazeinfo-bg {
+  background: rgb(238, 34, 17);
+  background: radial-gradient(
+    circle,
+    rgba(238, 34, 17, 1) 0%,
+    rgba(17, 17, 17, 1) 100%
+  );
+  padding-bottom: 100px;
+  padding-top: 220px;
+  position: relative;
+}
+
+.perguntas-bl {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.blazeinfo {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.efeito-bg-blainfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.efeito-bg-blainfo svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.efeito-bg-blainfo .shape-fill {
+  fill: #111111;
+}
+
+.infoblaze {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.infoblaze h3 {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 800px) {
+  .infoblaze {
+    grid-template-columns: 1fr;
+  }
+  .infoblaze h3 {
+    text-align: center;
+  }
+  .infoblaze img {
+    margin: auto;
+  }
+  .infoblaze p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .infoblaze p {
+    font-size: 0.7rem;
+  }
+  .blazeinfo-bg {
+    padding-bottom: 60px;
+    padding-top: 180px;
+  }
+}
