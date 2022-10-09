@@ -1,7 +1,9 @@
 .comprarvip-bg {
-  background: var(--cor-1);
+  /* background: var(--cor-1); */
   padding-top: 120px;
   padding-bottom: 20px;
+  background: rgb(17,25,238);
+  background: radial-gradient(circle, rgba(17,25,238,1) 0%, rgba(17,17,17,1) 100%);
 }
 
 .comprarvip {
