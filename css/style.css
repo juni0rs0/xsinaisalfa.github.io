@@ -23,8 +23,12 @@
 @import"../css/roboblaze/blazeintro.css";
 @import"../css/roboblaze/blazeinfo.css";
 
+/* contato */
+@import"../css/contato/contatoform.css";
+
 
 /* utilidades */
 @import"../css/utilidades/cores.css";
 @import"../css/utilidades/tipografia.css";
 @import"../css/utilidades/componentes.css";
+@import"../css/utilidades/formulario.css";
