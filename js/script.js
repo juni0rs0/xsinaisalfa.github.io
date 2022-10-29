@@ -10,6 +10,8 @@ link.classList.add("ativo")
 }
 
 links.forEach(ativarLink);
+
+
 // Perguntas Frequentes
 const perguntas = document.querySelectorAll(".perguntas button");
 
@@ -29,44 +31,25 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-//
-export default function outsideClick(element, events, callback) {
-  const html = document.documentElement;
-  const outside = 'data-outside';
 
-  if(!element.hasAttribute(outside)) {
-    events.forEach(userEvent => {
-      setTimeout(() => html.addEventListener(userEvent, handleOutsideClick));
-    });
-    element.setAttribute(outside, '');
-  }
-  function handleOutsideClick(event) {
-    if(!element.contains(event.target)) {
-      element.removeAttribute(outside);
-      events.forEach(userEvent => {
-        html.removeEventListener(userEvent, handleOutsideClick);
-      })
-      callback();
-    }
-  }
-}
 
-//
-export default function initMenuMobile() {
-  const menuButton = document.querySelector('[data-menu="button"]');
-  const menuList = document.querySelector('[data-menu="list"]');
-  const eventos = ['click', 'touchstart'];
-  
-  if(menuButton) {
-  function openMenu(event) {
-    menuList.classList.add('active');
-    menuButton.classList.add('active');
-    outsideClick(menuList, eventos, () => {
-      menuList.classList.remove('active');
-      menuButton.classList.remove('active');
-    })
-  }
-  eventos.forEach(evento => menuButton.addEventListener(evento, openMenu));
-  }
-}
+// Menu Mobile
 
+const btnMobile = document.getElementById('btn-mobile')
+
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefaut();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active')
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+
+  }
+} 
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);

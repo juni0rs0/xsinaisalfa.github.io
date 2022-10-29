@@ -1,8 +1,8 @@
-[data-menu="button"] {
+/* [data-menu="button"] {
   display: none;
-}
+} */
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .js [data-menu="button"] {
     display: flex;
     background: #222;
@@ -53,4 +53,4 @@
     position: static;
     border: none;
   }
-}
+} */

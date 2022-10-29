@@ -51,3 +51,13 @@
   width: 100%;
   transition: 0.3s;
 }
+
+#logo {
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  #logo {
+    margin-left: 0px;
+  }
+}
