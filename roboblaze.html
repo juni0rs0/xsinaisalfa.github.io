@@ -16,11 +16,14 @@
 
 <body>
   <header class="header-bg">
-    <div class="header">
-      <a class="logo" href="./">Sinais Alfa</a>
-      <nav aria-label="primaria">
-        <ul class="header-menu">
-          <li><a href="/">Inicio</a></li>
+    <div id="header" class="header">
+      <a id="logo" class="logo" href="./">Sinais Alfa</a>
+      <nav id="nav" aria-label="primaria">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" class="header-menu" role="menu">
+          <li><a href="./index.html">Inicio</a></li>
           <li><a href="./salavip.html">Sala Vip</a></li>
           <li><a href="./salaaovivo.html">Sala ao Vivo</a></li>
           <li><a href="./roboblaze.html">Robô da blaze</a></li>

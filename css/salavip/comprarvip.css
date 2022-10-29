@@ -15,6 +15,7 @@
   background: var(--cor-0);
   padding-top: 60px;
   padding-bottom: 60px;
+  box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.68);
 }
 
 .comprarvip-titulo h3 {
