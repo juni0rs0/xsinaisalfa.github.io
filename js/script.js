@@ -1,3 +1,9 @@
+// Alertas
+function alertaCurso() {
+  alert("CURSO EM DESENVOLVIMENTO!");
+}
+
+// Animação Menu
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLink(link) {
