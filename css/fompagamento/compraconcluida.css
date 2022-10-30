@@ -1,0 +1,38 @@
+.comp-concluida {
+  margin-top: 100px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.comp-concluida h1,
+.comp-concluida h3 {
+  text-align: center;
+}
+
+.comp-concluida img {
+  max-width: 200px;
+  margin: auto;
+  padding: 40px;
+}
+
+
+.comp-concluida a img {
+  width: 50px;
+}
+
+@media (max-width: 700px) {
+  .comp-concluida h3 {
+    padding: 20px;
+  }
+  .comp-concluida {
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .comp-concluida h1 {
+    font-size: 1.5rem;
+  }
+  .comp-concluida img {
+    width: 100px;
+  }
+}

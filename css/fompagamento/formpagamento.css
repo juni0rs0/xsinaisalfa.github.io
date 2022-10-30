@@ -22,14 +22,14 @@
 
 @media (max-width: 600px) {
   #texto-info-compra {
-  margin-top: 100px;
+    margin-top: 70px;
 
     font-size: 1.2rem;
     margin-bottom: 40px;  
   }
   #form-pagamento {
     margin: auto 20px;
-  margin-bottom: 150px;
+    margin-bottom: 150px;
   }
   
 }
