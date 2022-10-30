@@ -33,3 +33,6 @@
 @import"../css/utilidades/tipografia.css";
 @import"../css/utilidades/componentes.css";
 @import"../css/utilidades/formulario.css";
+
+/* Externos */
+@import"../css/fompagamento/formpagamento.css";

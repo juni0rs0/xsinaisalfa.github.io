@@ -16,58 +16,34 @@
 </head>
 
 <body>
-  <header class="header-bg">
-    <div id="header" class="header">
-      <a id="logo" class="logo" href="./">Sinais Alfa</a>
-      <nav id="nav" aria-label="primaria">
-        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" class="header-menu" role="menu">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./salavip.html">Sala Vip</a></li>
-          <li><a href="./salaaovivo.html">Sala ao Vivo</a></li>
-          <li><a href="./roboblaze.html">Robô da blaze</a></li>
-          <li><a href="./contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+
 
   <main>
-    <div class="contato-bg">
-      <div class="formtitulo container">
-        <h4 class=".font-2-xl cor-5">RESPOSTA EM ATÉ 24 HORAS</h4>
-        <h1 class="font-1-xxl cor-0">Nosso contato<span class="cor-p1">.</span></h1>
-      </div>
-      <div class="contato container">
-        <section class="contato-dados" aria-label="Telegram">
-          <h2 class="font-1-m cor-0">Deseja entrar em contato pelo Telegram?</h2>
-          <a href=""><img src="./img/icones/redes/telegram.png" alt="https://t.me/sinaisalfafree">Telegram</a>
-        </section class>
-
-        <section class="contato-formulario" aria-label="Formulario">
-          <form class="form" action="./">
-            <div>
-              <label for="nome ">Nome</label>
-              <input type="text" id="nome" name="nome" placeholder="Seu nome">
-            </div>
-            <div>
-              <label for="telefone">Telefone</label>
-              <input type="number" id="telefone" name="telefone" placeholder="(21) 9 9999-9999">
-            </div>
-            <div class="col-2">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="exemplo@gmail.com">
-            </div>
-            <div class="col-2">
-              <label for="mensagem">Mensagem</label>
-              <textarea name="mensagem" id="mensagem" rows="5" placeholder="Escreva aqui sua mensagem"></textarea>
-            </div>
-            <button class="botao">Enviar Mensagem</button>
-          </form>
-        </section>
-      </div>
+    <h2 id="texto-info-compra">Coloque suas informações corretas para que possamos entrar em contato e assim enviar seu pedido o mais rapido possivel.</h2>
+    <section id="form-pagamento" class="contato-formulario" aria-label="Formulario">
+      <form class="form" action="./">
+        <div>
+          <label for="nome ">Nome *</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+        <div>
+          <label for="telefone">Telefone *</label>
+          <input type="number" id="telefone" name="telefone" placeholder="(11) 9 9999-9999" required>
+        </div>
+        <div class="col-2">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required>
+        </div>
+        <div class="col-2">
+          <label for="nome ">Nome de Usuario do Telegram</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu @ do Telegram">
+        </div>
+        <div id="botaoform">
+          <button class="botao">Comprar</button>
+        </div>
+      </form>
+    </section>
+    </div>
     </div>
 
   </main>

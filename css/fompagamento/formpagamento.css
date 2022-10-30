@@ -1,0 +1,35 @@
+#form-pagamento {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+#texto-info-compra {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0px 30px;
+}
+
+
+@media (max-width: 850px) {
+  #texto-info-compra {
+    font-size: 1.5rem;
+    
+  }
+}
+
+@media (max-width: 600px) {
+  #texto-info-compra {
+  margin-top: 100px;
+
+    font-size: 1.2rem;
+    margin-bottom: 40px;  
+  }
+  #form-pagamento {
+    margin: auto 20px;
+  margin-bottom: 150px;
+  }
+  
+}
